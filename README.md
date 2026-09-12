@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# College Discovery Platform
 
-## Getting Started
+A full-stack college discovery platform built for the AI Software Engineer Internship demo assignment.
 
-First, run the development server:
+The application allows users to discover colleges, search and filter results, view detailed college information, and compare 2–3 colleges side by side.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Live Demo
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+https://college-discovery-platform-virid-one.vercel.app
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## GitHub Repository
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+https://github.com/Harshitha-Sudhakar20/college-discovery-platform
 
-## Learn More
+## Features
 
-To learn more about Next.js, take a look at the following resources:
+- College listing with database-backed data
+- Search colleges by name
+- Filter by city and state
+- Filter by minimum rating
+- Filter by maximum annual fees
+- Pagination
+- College detail pages
+- Course information for each college
+- Compare 2–3 colleges side by side
+- Loading, empty, and error states
+- API input validation
+- REST-style JSON API responses
+- PostgreSQL database
+- Prisma ORM
+- Responsive frontend built with Next.js and Tailwind CSS
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Frontend
+- Next.js 16
+- React 19
+- TypeScript
+- Tailwind CSS
 
-## Deploy on Vercel
+### Backend
+- Next.js App Router API routes
+- TypeScript
+- Prisma ORM
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Database
+- PostgreSQL
+- Prisma Postgres
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Deployment
+- Vercel
+
+## Architecture
+
+The application follows a simple full-stack architecture:
+
+```text
+User
+  |
+  v
+Next.js / React UI
+  |
+  v
+Next.js API Routes
+  |
+  v
+Prisma ORM
+  |
+  v
+PostgreSQL
