@@ -6,13 +6,18 @@ const eslintConfig = defineConfig([
   ...nextVitals,
   ...nextTs,
   // Override default ignores of eslint-config-next.
-  globalIgnores([
-    // Default ignores of eslint-config-next:
-    ".next/**",
-    "out/**",
-    "build/**",
-    "next-env.d.ts",
-  ]),
+ globalIgnores([
+  // Default ignores of eslint-config-next:
+  ".next/**",
+  "out/**",
+  "build/**",
+  "next-env.d.ts",
+
+  // Generated Prisma files:
+  "src/prisma/contract.d.ts",
+  "src/prisma/contract.json",
+  "migrations/**",
+]),
 ]);
 
 export default eslintConfig;
