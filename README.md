@@ -33,21 +33,25 @@ https://github.com/Harshitha-Sudhakar20/college-discovery-platform
 ## Tech Stack
 
 ### Frontend
+
 - Next.js 16
 - React 19
 - TypeScript
 - Tailwind CSS
 
 ### Backend
+
 - Next.js App Router API routes
 - TypeScript
 - Prisma ORM
 
 ### Database
+
 - PostgreSQL
 - Prisma Postgres
 
 ### Deployment
+
 - Vercel
 
 ## Architecture
