@@ -116,7 +116,7 @@ export default function CollegeDetails() {
           href="/"
           className="text-sm font-semibold text-indigo-600 hover:text-indigo-700"
         >
-          ? Back to all colleges
+          &lt; Back to all colleges
         </Link>
 
         <div className="mt-5 rounded-2xl border bg-white p-7 shadow-sm">
